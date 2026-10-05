@@ -1,0 +1,14 @@
+# Local secrets and configuration
+supabase.env.bat
+.env
+.env.*
+!.env.example
+
+# Local data and generated build output
+/data/
+/target/
+/out/
+/verify-build/
+/verify-sqlite-build/
+/work/
+*.class
